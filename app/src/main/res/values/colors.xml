@@ -2,4 +2,8 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="Backgroud_Main">#8EBFCA</color>
+    <color name="Backgroud_Login">#FAFBEE</color>
+    <color name="Botones_Login">#E2B1AF</color>
+    <color name="Botones_Main">#C55450</color>
 </resources>
