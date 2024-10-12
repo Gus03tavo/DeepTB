@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/Backgroud_Login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login.ActivityLogin">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logodeeptb" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="DeepTB"
+        android:fontFamily="@font/merriweather_black"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/BtnCrearCuenta"
+        android:layout_width="250dp"
+        android:backgroundTint="@color/Botones_Login"
+        android:layout_height="48dp"
+        android:layout_marginTop="56dp"
+        android:fontFamily="@font/merriweather_regular"
+        android:text="Crear Cuenta"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/BtnGoogle"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="36dp"
+        android:fontFamily="@font/merriweather_regular"
+        android:backgroundTint="@color/Botones_Login"
+        android:textColor="@color/black"
+        android:text="Google"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BtnCrearCuenta" />
+
+    <Button
+        android:id="@+id/BtnX"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="36dp"
+        android:fontFamily="@font/merriweather_regular"
+        android:backgroundTint="@color/Botones_Login"
+        android:text="X"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BtnGoogle" />
+
+    <TextView
+        android:id="@+id/txtIniciarSesion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="120dp"
+        android:text="Iniciar Sesión"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/merriweather_regular"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

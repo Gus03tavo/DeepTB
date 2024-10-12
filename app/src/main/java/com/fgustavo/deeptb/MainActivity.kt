@@ -17,6 +17,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.drawerlayout.widget.DrawerLayout
+import com.fgustavo.deeptb.Login.ActivityLogin
 import com.google.android.material.navigation.NavigationView
 
 class MainActivity : AppCompatActivity() {
@@ -114,8 +115,8 @@ class MainActivity : AppCompatActivity() {
 //                }
 //                FirebaseAuth.getInstance().signOut()
 //                LoginManager.getInstance().logOut()
-//                val intent = Intent(this, ActivityLogin::class.java)
-//                startActivity(intent)
+                val intent = Intent(this, ActivityLogin::class.java)
+                startActivity(intent)
                 finish()
             }
             .setNegativeButton("No") { dialog, _ ->
